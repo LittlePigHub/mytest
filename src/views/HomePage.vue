@@ -1,13 +1,13 @@
 <template>
   <div class="home-page">
     <div class="home-header">
-      <van-uploader
+      <!-- <van-uploader
         :after-read="uploadFun"
         accept="*"
         preview-image="false"
         preview-size="24"
         upload-icon="plus"
-      />
+      /> -->
     </div>
     <div class="home-main">
       <!-- <el-carousel height="350px">
@@ -84,6 +84,7 @@ export default {
     handleClick (tab, event) {
       console.log(tab, event);
     },
+    uploadFun () { },
   },
 }
 </script>

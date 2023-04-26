@@ -4,7 +4,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import App from './App.vue';
 import './assets/css/commend.css';
 import { Uploader } from 'vant';
-import router from './router';
+import router from './router/router';
 
 import _ from 'lodash'
 Vue.prototype._ = _
